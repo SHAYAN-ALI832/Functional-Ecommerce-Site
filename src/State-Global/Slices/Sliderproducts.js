@@ -14,19 +14,16 @@ import trouser from './../../assets/Sliderimgs/trouser.jpg'
 import vacuum from './../../assets/Sliderimgs/vacuum.jpg'
 import vitamin from './../../assets/Sliderimgs/vitamin.jpg'
 import w_shoes from './../../assets/Sliderimgs/w-shoes.jpg'
-import w_summershirt from './../../assets/Sliderimgs/w-sumershirt.jpg'
 
 
 
-import action_cam from './../../assets/action-cam.jpg'
-import camera_lens from './../../assets/camera-lens.jpg'
 
 import earbuds from './../../assets/earbuds.jpg'
 import face_wash from './../../assets/face wash.jpg'
 import G_chair from './../../assets/G-chair.jpg'
 import g_headset from './../../assets/g-headsets.jpg'
-import g_keyboard from './../../assets/g-keyboard.jpg'
-import g_monitor from './../../assets/g-monitor.jpg'
+import g_keyboard from './../../assets/G-keyboard.jpg'
+import g_monitor from './../../assets/G-monitor.jpg'
 import i13 from './../../assets/i phone13.jpg'
 import office_dsktp from './../../assets/office-desktop.jpg'
 
