@@ -12,6 +12,7 @@ function ProductDetails() {
   const categories = useSelector((state) => state.Products.categories);
   const allProducts = Object.values(categories).flatMap((cat) => cat.products);
   const product = allProducts.find((p) => p.id === parseInt(productId));
+  console.log(product)
 
   const handleAddToCart = (product) => {
     const user = localStorage.getItem('user');
