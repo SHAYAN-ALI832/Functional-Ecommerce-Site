@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaUser, FaBoxOpen, FaTimesCircle, FaStar, FaSignOutAlt, FaUserCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import { HandleRemoveCartsItems } from '../State-Global/Slices/Wishlist';
 import { HandleWishlistitems } from '../State-Global/Slices/Wishlist';
 
 const UserDropdown = () => {
+  let navigate  = useNavigate();
   let User = localStorage.getItem("user");
  
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +14,7 @@ const UserDropdown = () => {
   const handleToggle = () => setIsOpen(!isOpen);
 
   const handleLogout = () => {
+    navigate("/");
     HandleRemoveCartsItems();
     HandleWishlistitems();
     localStorage.removeItem("user");

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { AiOutlineHeart, AiOutlineEye } from 'react-icons/ai';
+import { useMemo } from 'react';
 import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -8,6 +8,8 @@ function Thismonthsales() {
   const thisMonthSales = useSelector(
     (state) => state.Products.categories.Thismonthsales.products
   );
+  
+  
 
   return (
     <div className="px-6 py-8">
